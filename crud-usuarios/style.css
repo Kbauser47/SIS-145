@@ -1,0 +1,43 @@
+/* index.css */
+body {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #24292e;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #d0d7de;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f6f8fa;
+    font-weight: bold;
+  }
+  a{
+    text-align: center;
+  }

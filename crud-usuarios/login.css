@@ -1,0 +1,53 @@
+/* login.css */
+body {
+    background-color: #00000053;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .youtube-style {
+    text-align: center;
+    font-family: Bangers;
+    font-weight: bold;
+  }
+
+  .youtube-style .line1 {
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+
+  .youtube-style .line2 {
+    font-size: 100px;
+    color: #FF0000;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+    letter-spacing: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2da44e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218639;
+  }
+  
